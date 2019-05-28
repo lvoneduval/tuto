@@ -1,0 +1,52 @@
+Correction
+
+Globalement on ne laisse pas les programmes compilés dans le fichier c'est écrit dans la consigne
+Cette remarque peut sembler injuste mais les corrections le sont toujours
+
+Ex00
+mauvais nom de fichier
+
+Ex01
+Ok
+
+Ex02
+Ok
+
+Ex03
+Ok
+
+Ex04
+Fonction trop longue n'hésites pas à split en 2 sous fonction, je t'en ai fais une à ma version. While au lieu de forêt de if, les 2 méthode se défendent.
+
+Btw tu prints le ", " une fois de trop
+
+Ex05
+Même remarque (la norme c'est 25 lignes pour epitech)
+et le print de ", " une fois de trop.
+
+Pour le coup la logiqu while ici est plus intuitive
+Mais bon tant que ça marche, ça marche
+
+Ex06:
+Ha enfin ! je pensais que tu allais tout réussir mais non; t'es tombé dans un piege classique
+:D
+Tout marche correctement, sauf
+INT_MIN.
+
+Je ne vais pas te faire l'affront de t'expliquer comment les entiers sont "codés"
+Mais globalement les valeur négatives vont plus loins que les valeurs positives de 1
+
+ça dépend des machines mais sur ton mac les Int vont de 
+
+-2147483648 à +2147483647
+
+donc si teste ton programme avec -2147483648 
+à la ligne 12 de ton programme
+tu vas faire un 
+nb = -2147483648 * -1
+ce qui devrait te donner
++2147483648, mais ce nombre ne fait pas parti des entiers
+du cout quand tu vas l'affecter à nb, il va être "tronqué".
+
+Ex07
+
