@@ -18,13 +18,11 @@ Ok
 Ex04
 Fonction trop longue n'hésites pas à split en 2 sous fonction, je t'en ai fais une à ma version. While au lieu de forêt de if, les 2 méthode se défendent.
 
-Btw tu prints le ", " une fois de trop
 
 Ex05
 Même remarque (la norme c'est 25 lignes pour epitech)
-et le print de ", " une fois de trop.
 
-Pour le coup la logiqu while ici est plus intuitive
+Pour le coup la logique while ici est plus intuitive
 Mais bon tant que ça marche, ça marche
 
 Ex06:
